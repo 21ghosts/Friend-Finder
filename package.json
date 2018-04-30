@@ -1,0 +1,26 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "Friend finding app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/21ghosts/Friend-Finder.git"
+  },
+  "author": "Nate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/21ghosts/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/21ghosts/Friend-Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "require": "^2.4.20"
+  }
+}
